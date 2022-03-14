@@ -1,0 +1,38 @@
+
+# Simples
+
+import os # IMPORTANDO A BLIBLIOTECA OS INTEGRANDO PROGRAMAS E RECURSOS
+
+print('#' * 60)
+
+ip_ou_host = input('Digite o IP ou host a ser verificado:')
+
+# CRIADO A VARIAVEL PARA INTERAGIR COM O USUARIO AO DIGITAR O IP
+
+print('_' * 60)
+
+os.system('ping -n 6 {}'.format (ip_ou_host_ou_host))
+
+# CHAMANDO O SISTEM DA BIBLIOTECA OS - COMANDO PING
+
+print('_' * 60)
+
+----------------------------------------------------------
+ # COMPOSTOS
+    
+    # criar um arquivo de texto
+    # host - www.google.com com o ip 8.8.8.8 / www.pudim.com.br com o ip 4.4.4.4
+    
+import os
+import time    
+with open(hosts.txt) as file: # com a abertura do host
+    dump = file.read() # ler o arquivo e jogar no dump
+    dump = dump.splitlines() # colocando em linhas separadas
+        
+for ip in dump: # passando no dump e jogando no ip
+    print('Verificando IP:', ip)
+    print('-'*60)
+    os.system('ping -n 2 {}'.format(ip))
+    print('-'*60)
+    time.sleep(5) #tempo de espera de 5 sg
+         
